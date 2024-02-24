@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+     <header class="header">
+            <h1>Tahira's Diner</h1>
+            <p>The best Pitza and burger in the town</p>
+     </header>
+
+         <div class="container">
+             <div id="emoji-name"></div>
+             <div id="food-name"></div>
+             <div id="add_order"></div>
+         </div>
+         <section class="section-order">
+         <div class="order">
+            <h1>Your Order</h1>
+            <div class="order_containt"></div>
+        </div>
+   
+            <div class="total">
+                    <p>Total price:</p>
+                <div class="total-price">
+                   
+                </div>
+            </div>
+                 <div class="btn">
+                <button>Complete Order</button>
+            </div>
+       
+        </section>
+        <div class="end"></div>
+        
+        <form class="form" action="">
+                <h2>Enter Card details</h2>
+                <input class="Name" type="text" name="name" placeholder="Enter your name" autocomplete="name" required> <br>
+                <input class="Code" type="number" name="cardNum" placeholder="Enter card number" autocomplete="cc-number" required> <br>
+                <input class="CCV" type="number" name="CCV" placeholder="Enter CCV" autocomplete="cc-csc" required><br>
+                <button class="pay" type="submit">Pay</button>
+            </form>
+     
+  
+     <script src="index.js" type="module"></script>
+</body>
+</html>
